@@ -23,6 +23,45 @@ body {
     linear-gradient(180deg, #f8fafc 0%, #f8fafc 100%);
 }
 
+body.page-home {
+  background-color: #f8fafc;
+  background-image:
+    radial-gradient(circle at 10% 20%, rgba(37, 99, 235, 0.045) 0, rgba(37, 99, 235, 0.045) 110px, transparent 111px),
+    radial-gradient(circle at 85% 25%, rgba(14, 165, 233, 0.035) 0, rgba(14, 165, 233, 0.035) 120px, transparent 121px),
+    linear-gradient(180deg, #f8fafc 0%, #f8fbff 100%);
+}
+
+body.page-about {
+  background-color: #f9fbf8;
+  background-image:
+    radial-gradient(circle at 14% 18%, rgba(34, 197, 94, 0.04) 0, rgba(34, 197, 94, 0.04) 105px, transparent 106px),
+    radial-gradient(circle at 88% 78%, rgba(16, 185, 129, 0.03) 0, rgba(16, 185, 129, 0.03) 130px, transparent 131px),
+    linear-gradient(180deg, #f9fbf8 0%, #f7fcfa 100%);
+}
+
+body.page-research {
+  background-color: #fcfbf8;
+  background-image:
+    radial-gradient(circle at 15% 30%, rgba(245, 158, 11, 0.04) 0, rgba(245, 158, 11, 0.04) 110px, transparent 111px),
+    radial-gradient(circle at 82% 18%, rgba(234, 179, 8, 0.03) 0, rgba(234, 179, 8, 0.03) 120px, transparent 121px),
+    linear-gradient(180deg, #fcfbf8 0%, #fffdf9 100%);
+}
+
+body.page-publications {
+  background-color: #faf9fd;
+  background-image:
+    radial-gradient(circle at 12% 22%, rgba(139, 92, 246, 0.04) 0, rgba(139, 92, 246, 0.04) 100px, transparent 101px),
+    radial-gradient(circle at 86% 76%, rgba(168, 85, 247, 0.03) 0, rgba(168, 85, 247, 0.03) 125px, transparent 126px),
+    linear-gradient(180deg, #faf9fd 0%, #fcfbff 100%);
+}
+
+body.page-contact {
+  background-color: #f9fcfb;
+  background-image:
+    radial-gradient(circle at 18% 20%, rgba(6, 182, 212, 0.04) 0, rgba(6, 182, 212, 0.04) 110px, transparent 111px),
+    radial-gradient(circle at 82% 24%, rgba(20, 184, 166, 0.03) 0, rgba(20, 184, 166, 0.03) 125px, transparent 126px),
+    linear-gradient(180deg, #f9fcfb 0%, #f7fcfc 100%);
+}
 
 img {
   max-width: 100%;
