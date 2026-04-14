@@ -882,3 +882,29 @@ a {
   line-height: 1.6;
   color: #555;
 }
+
+.hero-profiles {
+  margin-top: 15px;
+}
+
+.profile-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 8px;
+}
+
+.profile-buttons a {
+  padding: 6px 12px;
+  border-radius: 20px;
+  background: rgba(255,255,255,0.08);
+  font-size: 0.9rem;
+  text-decoration: none;
+  color: inherit;
+  transition: 0.2s;
+}
+
+.profile-buttons a:hover {
+  background: #4CAF50;
+  color: white;
+}
